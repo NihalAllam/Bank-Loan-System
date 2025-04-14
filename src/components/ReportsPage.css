@@ -1,0 +1,74 @@
+.reports-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .reports-container h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+  }
+  
+  .loan-trends,
+  .defaulters {
+    margin-top: 40px;
+  }
+  
+  .loan-trends h3,
+  .defaulters h3 {
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  /* Bar Chart */
+  .bar-chart {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    height: 200px;
+    border-bottom: 2px solid #ddd;
+    padding-left: 10px;
+  }
+  
+  .bar-item {
+    text-align: center;
+  }
+  
+  .bar {
+    width: 25px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .approved {
+    background-color: #10b981;
+  }
+  
+  .rejected {
+    background-color: #ef4444;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #1d4ed8;
+    color: white;
+  }
+  
+  tr:hover {
+    background-color: #f3f4f6;
+  }
+  

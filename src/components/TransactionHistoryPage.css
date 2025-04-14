@@ -1,0 +1,40 @@
+.transaction-history-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+  }
+  
+  .transaction-table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-header,
+  .transaction-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1rem;
+    align-items: center;
+  }
+  
+  .transaction-header {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: bold;
+  }
+  

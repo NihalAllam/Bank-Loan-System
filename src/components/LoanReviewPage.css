@@ -1,0 +1,78 @@
+.loan-review-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .loan-review-container h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+  }
+  
+  .applicant-details {
+    background-color: #f9fafb;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .applicant-details h3 {
+    margin-top: 20px;
+    color: #1f2937;
+  }
+  
+  .applicant-details p {
+    margin: 5px 0;
+    color: #374151;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .decision-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .approve-btn,
+  .reject-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .approve-btn {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .reject-btn {
+    background-color: #dc2626;
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .reject-btn:hover {
+    background-color: #b91c1c;
+  }
+  
+  .decision-msg {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #1e40af;
+  }
+  

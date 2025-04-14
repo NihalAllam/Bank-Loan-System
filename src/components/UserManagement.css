@@ -1,0 +1,128 @@
+.user-management-container {
+    padding:40px;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+  .user-management-container h1 {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 30px;
+  }
+  
+  .form-section {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+  }
+  
+  .form-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #111827;
+  }
+  
+  .form-section input,
+  .form-section select {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    color: black;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  .user-list-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+  
+  .user-table td button {
+    margin-right: 10px;
+    padding: 6px 10px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .user-table td button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .role-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .role-buttons button {
+    padding: 8px 16px;
+    background-color: #eee;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .role-buttons button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .confirm-delete {
+    background-color: red;
+    color: white;
+  }
+  
+  .edit-box {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #f7f7f7;
+  }
+    

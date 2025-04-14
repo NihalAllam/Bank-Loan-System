@@ -1,0 +1,119 @@
+/* signup.css */
+.auth-container.signup-mode {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .left-section {
+    width: 50%;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .bank-logo {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-signup-box {
+    width: 400px;
+    background: rgba(99, 99, 99, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.15);
+    padding: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .form.signup-form {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .form.signup-form h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  input:focus {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .auth-button {
+    background: #ffcc00;
+    color: black;
+    border: none;
+    padding: 14px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+    width: 70%;
+  }
+  
+  .auth-button:hover {
+    background: #ffaa00;
+  }
+  
+  .file-label {
+    display: block;
+    color: #ffcc00;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .toggle-link {
+    color: #ffcc00;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+    color: #ffaa00;
+  }
+  

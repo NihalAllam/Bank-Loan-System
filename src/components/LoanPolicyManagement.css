@@ -1,0 +1,56 @@
+.policy-container {
+  padding:40px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 30px;
+  }
+  
+  .form-section {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #374151;
+    font-weight: 500;
+  }
+  
+  .form-section input {
+    
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .save-btn {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .save-btn:hover {
+    background-color: #2563eb;
+  }
+  

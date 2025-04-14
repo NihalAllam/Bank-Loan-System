@@ -1,0 +1,127 @@
+/* General Page Styling */
+.home-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.img-text img {
+  width: 30px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: white;
+  color: #1e3a8a;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  background: #dbeafe;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #1d4ed8;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-btn {
+  background: white;
+  color: black;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: rgb(193, 193, 193);
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.blue-icon {
+  color: #2563eb;
+}
+
+.green-icon {
+  color: #16a34a;
+}
+
+.red-icon {
+  color: #dc2626;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  background-color: #1d4ed8;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}

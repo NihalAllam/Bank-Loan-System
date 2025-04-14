@@ -1,0 +1,77 @@
+.emi-payment-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+  }
+  
+  .emi-table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emi-header,
+  .emi-row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 1rem;
+    align-items: center;
+  }
+  
+  .emi-header {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .status.pending {
+    background-color: #fef3c7;
+    color: #92400e;
+  }
+  
+  .status.paid {
+    background-color: #d1fae5;
+    color: #065f46;
+  }
+  
+  .pay-btn {
+    background-color: #16a34a;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .pay-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .paid-label {
+    color: #10b981;
+    font-weight: bold;
+  }
+  

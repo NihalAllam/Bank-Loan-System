@@ -1,0 +1,86 @@
+  
+  .landing-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  width: 100vw;
+}
+
+.hero {
+  position: relative;
+  color: white;
+  padding: 150px 20px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url("https://source.unsplash.com/1600x900/?finance,bank") no-repeat center/cover;
+}
+
+/* Hero Text Styling */
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Highlight Color */
+.highlight {
+  color: #ffcc00;
+}
+
+/* Apply Button */
+.apply-button {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.apply-button:hover {
+  background: #ffaa00;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #ffcc00;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  background: #222;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}

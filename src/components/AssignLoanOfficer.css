@@ -1,0 +1,86 @@
+/* Overall container styling */
+.assign-loan-officer-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .assign-loan-officer-container h2 {
+    text-align: center;
+    color: #343a40;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container styling */
+  .assign-loan-officer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Dropdown styling for selecting customer and officer */
+  .assign-loan-officer-form select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .assign-loan-officer-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .assign-loan-officer-form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .assign-loan-officer-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Alert and success message styling */
+  .assign-loan-officer-container .alert {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Error message styling */
+  .assign-loan-officer-container .error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Styling for loading spinner (if needed) */
+  .spinner {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .spinner .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 5px;
+    color: #007bff;
+  }
+  
